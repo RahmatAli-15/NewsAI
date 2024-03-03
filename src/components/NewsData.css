@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+  flex-direction: column;
+  padding: 0px;
+
+}
+
+.gridMain{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.gridChild{
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.newsImg{
+  width: 100%;
+}
+
+.newsTitle{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.newsContent{
+font-size: 16px;
+}
+
+.newsAuthor{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.both{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 370px;
+}
+
+.selectBox{
+  
+}
